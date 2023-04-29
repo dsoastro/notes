@@ -1,0 +1,35 @@
+
+c 1               cat file # 1
+cat 1             cat file # 1
+e 1               edit file #1
+e 1 editor=gedit  edit file #1 using gedit
+n file.txt        create new file.txt
+n file.txt editor=gedit   create new file.txt using gedit
+cd 1              change folder to #1
+cd folder         change folder to folder
+pwd               print working directory
+tags              show list of available tags
+list              change program state to main (list)
+l                 list files
+update_tag_db     update tags database
+s word            search for word in current folder and below
+s word --name     search for word in current folder and below in file names only
+z dirword         change to directory which name contains dirword among recently used
+f fileword        go to file which name contains fileword among recently used
+t tag1 tag2       list files with tag1 and tag2
+
+the file may contain a string like
+tags: abc def
+then the note will be tagged with "abc" and "def" tags
+
+to show markdown files
+e 1 editor=grip   (in browser)
+e 1 editor=mdless (in command line)
+e 1 editor=code (gui)
+
+for that:
+https://unix.stackexchange.com/questions/4140/markdown-viewer
+pip install grip
+sudo gem install mdless
+sudo apt install code
+
