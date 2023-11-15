@@ -5,6 +5,9 @@ The python CLI application for managing text notes on Linux (in fact, a convenie
 The app also works with GUI editors ("gedit", "sublime", "vim", "nano", "atom", "grip", "mdless", "code") to look through / edit notes. The list of editors could be extended by amending the EDITOR_LIST variable. The app keeps the input history and provides for autocompletion.
 
 The author uses the app to organise and quickly search through several thousands notes.
+
+The code in this repo is subject to GPL v2 license terms.
+
 ## Installation
 ```
 git clone https://github.com/dsoastro/notes
